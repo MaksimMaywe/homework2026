@@ -1,0 +1,31 @@
+table,
+caption,
+tr,
+th,
+td {
+    border: 1.5px solid #000;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th {
+    padding: 3px;
+}
+
+caption {
+    border-bottom: none;
+}
+
+.caption-table {
+    font-weight: 800;
+}
+
+.text-table {
+    color: red;
+}
+
+.title {
+    color: red;
+    font-weight: 700;
+}
