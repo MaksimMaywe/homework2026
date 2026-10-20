@@ -1,8 +1,15 @@
 body {
-background-color: rgb(150, 150, 150);
+    background-color: rgb(150, 150, 150);
 }
 
+.fieldset {
+    border: none;
+}
 
+.legend {
+    padding-top: 10px;
+    font-weight: 900;
+}
 
 .label {
     display: inline-flex;
@@ -11,8 +18,10 @@ background-color: rgb(150, 150, 150);
 }
 
 .form {
-    margin-left: 500px;
-    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 10%;
     max-width: 350px;
 }
 
@@ -25,6 +34,7 @@ background-color: rgb(150, 150, 150);
 input {
     margin-top: 3px;
     font-size: 10px;
+    outline: none;
 }
 
 [value] {
@@ -45,4 +55,8 @@ button {
     margin-top: 10px;
     border: none;
     cursor: pointer;
+}
+
+.textarea {
+    margin-top: 10px;
 }
