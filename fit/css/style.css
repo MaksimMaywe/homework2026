@@ -17,18 +17,10 @@ p {
     padding-top: 80px;
 }
 
-.article-mb {
-    margin-bottom: 80px;
-}
-
 .container {
     max-width: 1250px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.article-mb {
-    margin-bottom: 80px;
 }
 
 .article-title-big {
@@ -58,9 +50,14 @@ p {
     margin-bottom: 20px;
 }
 
+.article-mb {
+    margin-bottom: 80px;
+}
+
+
 .article-image {
     width: 100%;
-    height: auto;
+  
 }
 
 .article-video {
