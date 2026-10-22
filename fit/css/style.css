@@ -17,6 +17,10 @@ p {
     padding-top: 80px;
 }
 
+.article-mb {
+    margin-bottom: 80px;
+}
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
@@ -36,6 +40,7 @@ p {
 }
 
 .article-title {
+    max-width: 596px;
     font-family: Oswald;
     font-weight: 600;
     line-height: 115%;
@@ -56,6 +61,10 @@ p {
 .article-image {
     width: 100%;
     height: auto;
+}
+
+.article-video {
+    margin-bottom: 40px;
 }
 
 .article-list {
