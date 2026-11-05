@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson-71</title>
+</head>
+
+<body>
+    <form class="form">
+        <fieldset class="form-group">
+            <legend class="form-title">Ваши личные данные</legend>
+            <label class="form-label" for="user-name">Ваше имя</label>
+            <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Имя" required>
+            <label class="form-label" for="user-age">Ваш возраст</label>
+            <input class="form-input" type="number" name="user-age" id="user-age" placeholder="Возраст" required>
+            <label class="form-label" for="user-tel">Ваш номер телефона</label>
+            <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Номер телефона" required>
+            <label class="form-label" for="user-email">Ваша почта</label>
+            <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Ваша почта" required>
+        </fieldset>
+        <fieldset class="form-group">
+            <textarea class="form-textarea"></textarea>
+            <label class="form-label checkbox-label">
+                <input class="checkbox" name="checkbox" type="checkbox">
+                Я принимаю правила
+            </label>
+            <br>
+            <button class="form-button" type="submit">Отправить</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
