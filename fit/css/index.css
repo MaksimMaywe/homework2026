@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d3cbd9;
+}
+
+.header-text {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #858e8a;
+    margin-bottom: 8px;
+}
+
+.header-nav-phone {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.header-phone {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2c332f;
+}
+
+.header-logo {
+    transition: transform 0.5s;
+}
+
+.header-logo:hover {
+    transform: scale(1.1);
+}
+
+.header-nav-phone a {
+    transition: color 0.2s;
+}
+
+.header-nav-phone a:hover {
+    color: orange;
+}

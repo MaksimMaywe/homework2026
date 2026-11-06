@@ -1,26 +1,5 @@
-body * {
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-
 .article {
     padding-top: 80px;
-}
-
-.container {
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .article-title-big {
@@ -48,6 +27,11 @@ p {
     line-height: 130%;
     color: #535755;
     margin-bottom: 20px;
+}
+
+.article-text-margin {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .article-mb {
@@ -101,11 +85,15 @@ li {
     list-style: none;
 }
 
-li::before {
+.article-list-item::before {
     content: url('/images/Ellipse 3.svg');
     width: 8px;
     height: 8px;
     margin-right: 8px;
     border-radius: 100%;
     padding-right: 8px;
+}
+
+li .footer-nav-link {
+    list-style: none;
 }
