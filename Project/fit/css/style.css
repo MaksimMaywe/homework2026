@@ -1,0 +1,99 @@
+.article {
+    padding-top: 80px;
+}
+
+.article-title-big {
+    font-size: 48px;
+}
+
+.article-title-small {
+    font-size: 36px;
+}
+
+.article-title {
+    max-width: 596px;
+    font-family: Oswald;
+    font-weight: 600;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.article-text {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+    margin-bottom: 20px;
+}
+
+.article-text-margin {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article-mb {
+    margin-bottom: 80px;
+}
+
+
+
+.article-video {
+    margin-bottom: 40px;
+}
+
+.article-list {
+    padding: 0 0px;
+}
+
+.article-image {
+
+    width: 100%;
+
+}
+
+.decor-wrapper {
+    position: relative;
+}
+
+.decor-wrapper::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 528px;
+    height: 48px;
+    background: url('../images/decor-2.svg');
+}
+
+
+
+.decor-wapper-1::before {
+    top: 100px;
+    left: -350px;
+}
+
+.decor-wrapper-2::before {
+    bottom: 136px;
+    right: -340px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.article-list-item::before {
+    content: url('/images/Ellipse 3.svg');
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 100%;
+    padding-right: 8px;
+}
+
+li .footer-nav-link {
+    list-style: none;
+}
