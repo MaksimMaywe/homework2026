@@ -216,5 +216,5 @@
     content: "";
     width: 22px;
     height: 9px;
-    background-image: url('/images/Arrow-1.svg');
+    background-image: url('../images/Arrow-1.svg');
 }
