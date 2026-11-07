@@ -28,3 +28,20 @@ li {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.button {
+    display: inline-block;
+    padding-block: 19px;
+    padding-inline: 32px;
+    background: #3596ed;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 270px;
+    transition: color 0.2s, background 0.2s;
+}
