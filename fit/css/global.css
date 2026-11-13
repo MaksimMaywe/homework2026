@@ -45,3 +45,21 @@ li {
     max-width: 270px;
     transition: color 0.2s, background 0.2s;
 }
+
+/* a,
+button:focus {
+    outline: 1px solid #3596ed;
+    outline-offset: 2px;
+} */
+
+summary {
+    list-style: none;
+}
+
+summary::after {
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 22px;
+    background: url("../images/arrow-donwsvg.svg") no-repeat center / cover;
+}

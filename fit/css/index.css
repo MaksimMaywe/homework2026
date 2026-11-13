@@ -110,6 +110,10 @@
     background-color: rgb(219, 26, 151);
 }
 
+.button:active {
+    opacity: 0.5;
+}
+
 .section-images img {
     transition: transform 0.5s;
 }
@@ -217,4 +221,96 @@
     width: 22px;
     height: 9px;
     background-image: url('../images/Arrow-1.svg');
+}
+
+.faq {
+    margin-bottom: 170px;
+    position: relative;
+}
+
+.faq::before {
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    top: 215px;
+    width: 40%;
+    height: 48px;
+    background: url('../images/decor-3.svg');
+}
+
+.faq-container {
+    display: flex;
+    gap: 28px;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+summary:focus-visible {
+    color: #3596ed;
+    scale: 1.1;
+}
+
+summary:hover {
+    color: #3596ed;
+    scale: 1.2;
+    transform: translateX(50px);
+}
+
+.faq-image {
+    transition: transform 0.3s;
+}
+
+.faq-image:hover {
+    transform: scale(1.05);
+}
+
+
+
+details {
+    margin-bottom: 20px;
+    border-block: 1px solid #d3cbd9;
+}
+
+
+.faq-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.title-faq-medium {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+    padding: 20px;
+}
+
+
+.text-faq {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+    padding: 0 20px 20px;
 }
